@@ -10,6 +10,7 @@
 		522444E71F99A69A00C06B17 /* SparkKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 522444DD1F99A69A00C06B17 /* SparkKit.framework */; };
 		522444EC1F99A69A00C06B17 /* SparkKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522444EB1F99A69A00C06B17 /* SparkKitTests.swift */; };
 		522444EE1F99A69A00C06B17 /* SparkKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 522444E01F99A69A00C06B17 /* SparkKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		522444F81F99A7F900C06B17 /* BasicButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522444F71F99A7F900C06B17 /* BasicButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		522444E61F99A69A00C06B17 /* SparkKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SparkKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		522444EB1F99A69A00C06B17 /* SparkKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SparkKitTests.swift; sourceTree = "<group>"; };
 		522444ED1F99A69A00C06B17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		522444F71F99A7F900C06B17 /* BasicButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				522444E01F99A69A00C06B17 /* SparkKit.h */,
 				522444E11F99A69A00C06B17 /* Info.plist */,
+				522444F71F99A7F900C06B17 /* BasicButton.swift */,
 			);
 			path = SparkKit;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 				TargetAttributes = {
 					522444DC1F99A69A00C06B17 = {
 						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					522444E51F99A69A00C06B17 = {
@@ -196,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				522444F81F99A7F900C06B17 /* BasicButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +339,7 @@
 		522444F21F99A69A00C06B17 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -347,6 +353,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.SparkAppStudio.SparkKit;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -355,6 +362,7 @@
 		522444F31F99A69A00C06B17 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
@@ -376,6 +384,7 @@
 		522444F51F99A69A00C06B17 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 68KS6FN57P;
 				INFOPLIST_FILE = SparkKitTests/Info.plist;
@@ -390,6 +399,7 @@
 		522444F61F99A69A00C06B17 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 68KS6FN57P;
 				INFOPLIST_FILE = SparkKitTests/Info.plist;
