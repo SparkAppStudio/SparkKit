@@ -49,7 +49,4 @@ class BasicButton: UIButton {
         return super.intrinsicContentSize
     }
 
-    override func prepareForInterfaceBuilder() {
-        self.setNeedsDisplay()
-    }
 }
