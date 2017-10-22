@@ -31,6 +31,7 @@
 		522444EB1F99A69A00C06B17 /* SparkKitTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SparkKitTests.swift; sourceTree = "<group>"; };
 		522444ED1F99A69A00C06B17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		522444F71F99A7F900C06B17 /* BasicButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicButton.swift; sourceTree = "<group>"; };
+		522445271F9AE99F00C06B17 /* SparkKit.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SparkKit.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +56,7 @@
 		522444D31F99A69A00C06B17 = {
 			isa = PBXGroup;
 			children = (
+				522445271F9AE99F00C06B17 /* SparkKit.playground */,
 				522444DF1F99A69A00C06B17 /* SparkKit */,
 				522444EA1F99A69A00C06B17 /* SparkKitTests */,
 				522444DE1F99A69A00C06B17 /* Products */,
