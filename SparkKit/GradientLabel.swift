@@ -22,8 +22,8 @@ public class GradientLabel: UILabel {
         super.layoutSubviews()
 
         guard let textSize = (text as NSString?)?.size(withAttributes: [NSAttributedStringKey.font: font]) else { return }
-        if let bgImage = buildGradient(in: textSize, start: startColor, end: endColor) {
-            let gradientColor = UIColor(patternImage: bgImage)
+        if let gradient = buildGradient(in: textSize, start: startColor, end: endColor) {
+            let gradientColor = UIColor(patternImage: gradient)
             textColor = gradientColor
         }
     }
@@ -37,6 +37,8 @@ public class GradientLabel: UILabel {
     func buildGradient(in size: CGSize, start: UIColor, end: UIColor) -> UIImage? {
 
         UIGraphicsBeginImageContext(size)
+        defer { UIGraphicsEndImageContext() }
+
         let context = UIGraphicsGetCurrentContext()!
 
         let colorSpace = CGColorSpaceCreateDeviceRGB()
@@ -48,8 +50,6 @@ public class GradientLabel: UILabel {
         let endPoint = CGPoint(x: size.width / 2, y: size.height)
         context.drawLinearGradient(gradient, start: startPoint, end: endPoint, options: [])
 
-        let bgimage = UIGraphicsGetImageFromCurrentImageContext()
-        UIGraphicsEndImageContext()
-        return bgimage
+        return UIGraphicsGetImageFromCurrentImageContext()
     }
 }
