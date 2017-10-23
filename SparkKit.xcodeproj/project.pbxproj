@@ -11,6 +11,7 @@
 		522444EC1F99A69A00C06B17 /* SparkKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522444EB1F99A69A00C06B17 /* SparkKitTests.swift */; };
 		522444EE1F99A69A00C06B17 /* SparkKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 522444E01F99A69A00C06B17 /* SparkKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		522444F81F99A7F900C06B17 /* BasicButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522444F71F99A7F900C06B17 /* BasicButton.swift */; };
+		526F3F891F9D7396000F5E68 /* Segmented.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526F3F881F9D7396000F5E68 /* Segmented.swift */; };
 		52C6CBCF1F9D52AF001F01C0 /* GradientLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52C6CBCE1F9D52AF001F01C0 /* GradientLabel.swift */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +34,7 @@
 		522444ED1F99A69A00C06B17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		522444F71F99A7F900C06B17 /* BasicButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicButton.swift; sourceTree = "<group>"; };
 		522445271F9AE99F00C06B17 /* SparkKit.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = SparkKit.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		526F3F881F9D7396000F5E68 /* Segmented.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Segmented.swift; sourceTree = "<group>"; };
 		52C6CBCE1F9D52AF001F01C0 /* GradientLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -81,6 +83,7 @@
 				522444E11F99A69A00C06B17 /* Info.plist */,
 				522444F71F99A7F900C06B17 /* BasicButton.swift */,
 				52C6CBCE1F9D52AF001F01C0 /* GradientLabel.swift */,
+				526F3F881F9D7396000F5E68 /* Segmented.swift */,
 			);
 			path = SparkKit;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 			files = (
 				52C6CBCF1F9D52AF001F01C0 /* GradientLabel.swift in Sources */,
 				522444F81F99A7F900C06B17 /* BasicButton.swift in Sources */,
+				526F3F891F9D7396000F5E68 /* Segmented.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
