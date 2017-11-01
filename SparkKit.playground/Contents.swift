@@ -11,9 +11,8 @@ gradientLabel.font = UIFont.preferredFont(forTextStyle: .title1)
 
 testView.addSubview(gradientLabel)
 
-let segmented = SegmentedControl(items: ["Hello", "Goodbye"])
+let segmented = SegmentedSubClass(items: ["Hello", "Goodbye"])
 segmented.center = testView.center
-
 testView.addSubview(segmented)
 
 PlaygroundPage.current.liveView = testView
