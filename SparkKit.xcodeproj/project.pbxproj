@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		520145E71FB7B441001B7C80 /* OutlineButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 520145E61FB7B441001B7C80 /* OutlineButton.swift */; };
 		522444E71F99A69A00C06B17 /* SparkKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 522444DD1F99A69A00C06B17 /* SparkKit.framework */; };
 		522444EC1F99A69A00C06B17 /* SparkKitTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 522444EB1F99A69A00C06B17 /* SparkKitTests.swift */; };
 		522444EE1F99A69A00C06B17 /* SparkKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 522444E01F99A69A00C06B17 /* SparkKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -25,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		520145E61FB7B441001B7C80 /* OutlineButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineButton.swift; sourceTree = "<group>"; };
 		522444DD1F99A69A00C06B17 /* SparkKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SparkKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		522444E01F99A69A00C06B17 /* SparkKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SparkKit.h; sourceTree = "<group>"; };
 		522444E11F99A69A00C06B17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 				522444E11F99A69A00C06B17 /* Info.plist */,
 				522444F71F99A7F900C06B17 /* BasicButton.swift */,
 				52C6CBCE1F9D52AF001F01C0 /* GradientLabel.swift */,
+				520145E61FB7B441001B7C80 /* OutlineButton.swift */,
 			);
 			path = SparkKit;
 			sourceTree = "<group>";
@@ -207,6 +210,7 @@
 			files = (
 				52C6CBCF1F9D52AF001F01C0 /* GradientLabel.swift in Sources */,
 				522444F81F99A7F900C06B17 /* BasicButton.swift in Sources */,
+				520145E71FB7B441001B7C80 /* OutlineButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
